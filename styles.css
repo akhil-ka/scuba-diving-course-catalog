@@ -1,8 +1,38 @@
 body {
-    margin: 0px;
-    
+  margin: 0px;
 }
 
-#logo{
-    font-family: 'Lato', sans-serif;
+#logo {
+  margin: 0 0 0 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 0 0;
+  margin: 0 50px;
+}
+
+li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  margin: 0px;
+  padding: 5px 50px;
+  border-radius: 5px;
+}
+
+ol a {
+  text-decoration: none;
+  color: black;
+}
+
+ol a:hover {
+  color: rgb(181, 182, 188);
+  background-color: cadetblue;
 }
