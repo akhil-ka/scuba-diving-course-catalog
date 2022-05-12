@@ -38,9 +38,43 @@ ol a:hover {
   border-radius: 20px;
 }
 
-main{
+main {
   background-image: url(/images/scuba-background.jpg);
   height: 800px;
   background-position: center;
   background-size: cover;
+}
+
+#discover-container {
+  width: 900px;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  padding: 30px;
+}
+
+#discover-container h1 {
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(59 60 60);
+}
+
+#discover-container p {
+  color: rgb(255 255 255);
+  font-size: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  text-shadow: 2px 2px 2px rgb(59 60 60);
+}
+
+#discover-container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 5px 60px;
+  background-color: rgb(255 52 52);
+  position: relative;
+  font-size: 40px;
+  font-family: "Kanit", sans-serif;
 }
