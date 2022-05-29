@@ -78,3 +78,43 @@ main {
   font-size: 40px;
   font-family: "Kanit", sans-serif;
 }
+
+#popular-courses {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+#popular-courses ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#popular-courses h2 {
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  color: #58969e;
+}
+
+#popular-courses img {
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#popular-courses a {
+  text-decoration: none;
+  color: black;
+}
+
+#popular-courses #all-courses-button{
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(23, 140, 230);
+  padding: 10px 50px;
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+}
