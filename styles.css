@@ -8,7 +8,7 @@ header {
 }
 
 #logo {
-  margin: -30px 0 0 30px;
+  height: 100px;
 }
 
 ol {
@@ -16,12 +16,12 @@ ol {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 55px 20px 0px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 li {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   margin: 0px;
   padding: 0 15px 0 15px;
 }
@@ -29,20 +29,22 @@ li {
 ol a {
   text-decoration: none;
   color: black;
-  padding: 10px 20px 10px 20px;
+  padding: 3px 15px 3px 15px;
+  border-radius: 15px;
 }
 
 ol a:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(23, 140, 230);
-  border-radius: 20px;
 }
 
-main {
-  background-image: url(/images/scuba-background.jpg);
-  height: 800px;
-  background-position: center;
+main #hero-container {
+  background-image: url("/images/scuba-background.jpg");
+  background-position: center center;
   background-size: cover;
+  height: 500px;
+  position: relative;
+  top: -25px;
 }
 
 #discover-container {
@@ -50,11 +52,10 @@ main {
   position: relative;
   top: 150px;
   left: 50px;
-  padding: 30px;
 }
 
 #discover-container h1 {
-  font-size: 75px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -63,7 +64,7 @@ main {
 
 #discover-container p {
   color: rgb(255 255 255);
-  font-size: 40px;
+  font-size: 20px;
   font-family: "Nunito Sans", sans-serif;
   text-shadow: 2px 2px 2px rgb(59 60 60);
 }
@@ -71,17 +72,16 @@ main {
 #discover-container a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  border-radius: 20px;
-  padding: 5px 60px;
+  border-radius: 5px;
+  padding: 2px 35px;
   background-color: rgb(255 52 52);
   position: relative;
-  font-size: 40px;
+  font-size: 20px;
   font-family: "Kanit", sans-serif;
 }
 
 #popular-courses {
   position: relative;
-  top: 250px;
   text-align: center;
 }
 
@@ -108,9 +108,9 @@ main {
   color: black;
 }
 
-#popular-courses #all-courses-button{
+#popular-courses #all-courses-button {
   position: relative;
-  top: 30px;
+  top: 350px;
   text-decoration: none;
   color: white;
   background-color: rgb(23, 140, 230);
