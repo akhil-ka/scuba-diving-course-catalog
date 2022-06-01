@@ -100,7 +100,7 @@ main #hero-container {
 }
 
 #discover-container a:hover {
-  background-color: rgb(23, 140, 230);
+  background-color: rgb(222, 41, 58);
 }
 
 #popular-courses {
@@ -121,24 +121,31 @@ main #hero-container {
 }
 
 #popular-courses img {
-  width: 320px;
+  width: 380px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .exp-pop-courses {
   position: relative;
-  top: 15px;
-  font-size: 20px;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 600;
+  top: 20px;
   text-decoration: none;
-  color: rgb(0 37 71);
 }
 
 #popular-courses p {
-  margin: 0;
-  padding: 5px 0;
+  margin: 0px 20px;
+  padding: 8px 0px;
+  font-size: 22px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(0 37 71);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#popular-courses p:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 140, 230);
 }
 
 #all-courses-button {
@@ -152,4 +159,8 @@ main #hero-container {
   font-family: "Kanit", sans-serif;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#all-courses-button:hover {
+  background-color: rgb(43, 160, 250);
 }
