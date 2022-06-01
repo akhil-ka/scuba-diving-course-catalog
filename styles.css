@@ -19,7 +19,7 @@ ol {
   padding: 40px 0px 0px 0px;
 }
 
-li {
+nav li {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
   margin: 0px;
@@ -44,7 +44,7 @@ main #hero-container {
   background-size: cover;
   height: 500px;
   position: relative;
-  top: -25px;
+  top: -15px;
 }
 
 #discover-container {
@@ -54,67 +54,102 @@ main #hero-container {
   left: 50px;
 }
 
+#div-h1 {
+  width: 420px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
 #discover-container h1 {
-  font-size: 30px;
+  font-size: 45px;
   color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   font-weight: bold;
   text-shadow: 2px 2px 2px rgb(59 60 60);
+  margin: 0px;
+}
+
+#div-p {
+  width: 520px;
+  position: relative;
+  left: 50px;
+  top: -20px;
 }
 
 #discover-container p {
+  margin: 0px;
   color: rgb(255 255 255);
-  font-size: 20px;
-  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
   text-shadow: 2px 2px 2px rgb(59 60 60);
 }
 
 #discover-container a {
+  top: 40px;
+  left: 50px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   border-radius: 5px;
-  padding: 2px 35px;
-  background-color: rgb(255 52 52);
+  padding: 10px 50px;
+  background: rgb(242 61 78);
   position: relative;
   font-size: 20px;
   font-family: "Kanit", sans-serif;
 }
 
+#discover-container a:hover {
+  background-color: rgb(23, 140, 230);
+}
+
 #popular-courses {
   position: relative;
   text-align: center;
+  top: 75px;
+  height: 500px;
 }
 
 #popular-courses ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-}
-
-#popular-courses h2 {
-  font-size: 50px;
-  font-family: "Kanit", sans-serif;
-  color: #58969e;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 20px;
 }
 
 #popular-courses img {
-  width: 400px;
+  width: 320px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-#popular-courses a {
+.exp-pop-courses {
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
   text-decoration: none;
-  color: black;
+  color: rgb(0 37 71);
 }
 
-#popular-courses #all-courses-button {
+#popular-courses p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+#all-courses-button {
   position: relative;
-  top: 350px;
+  top: 120px;
   text-decoration: none;
   color: white;
   background-color: rgb(23, 140, 230);
-  padding: 10px 50px;
-  font-size: 30px;
+  padding: 5px 40px;
+  font-size: 20px;
   font-family: "Kanit", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
