@@ -128,7 +128,7 @@ main #hero-container {
 
 .exp-pop-courses {
   position: relative;
-  top: 20px;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ main #hero-container {
 
 #all-courses-button {
   position: relative;
-  top: 120px;
+  top: 150px;
   text-decoration: none;
   color: white;
   background-color: rgb(23, 140, 230);
